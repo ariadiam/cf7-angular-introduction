@@ -36,9 +36,9 @@ export class EpersonTemplateDrivenFormComponent {
     this.form?.setValue({
       givenName: "John",
       surName: "Doe",
-      Age: 30,
+      age: 30,
       email: "john@aueb.gr",
-      Education: "Bachelor's degree"
+      education: "Bachelor's degree"
     });
     this.form?.form.controls['givenName'].setValue("aaaaa")
   }
