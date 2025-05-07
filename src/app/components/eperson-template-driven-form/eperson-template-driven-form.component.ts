@@ -40,6 +40,6 @@ export class EpersonTemplateDrivenFormComponent {
       email: "john@aueb.gr",
       education: "Bachelor's degree"
     });
-    this.form?.form.controls['givenName'].setValue("aaaaa")
+    this.form?.form.controls['givenName'].setValue("Jason")
   }
 }
